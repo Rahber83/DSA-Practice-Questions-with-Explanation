@@ -45,3 +45,38 @@
 // 5. return reversedStringInBuilt; : The function then returns the `reversedStringInBuilt`.
 
 // 6. console.log(reverseStringInBuilt(stringInBuilt)); : This line calls the `reverseStringInBuilt` function with the `stringInBuilt` variable (which is "hello world") as the argument. The result is then logged to the console.
+
+
+
+#### //Explanation of the reverse the string in its own place Method-3
+1. **Variable Declaration:**
+   let reverseStringInItsOwnPlace = 'hello world';
+   - This line initializes a variable `reverseStringInItsOwnPlace` with the string `'hello world'`. This is the string that will be reversed.
+
+2. **Function Declaration:**
+   const stringReverseInItsOwnPlace = (reverseStringInItsOwnPlace) => {
+   - This line defines a function named `stringReverseInItsOwnPlace`. It takes a parameter `reverseStringInItsOwnPlace`, which will be the string that needs to be reversed.
+
+3. **String Manipulation using `split`, `map`, and `join`:**
+   let newString = reverseStringInItsOwnPlace.split(' ').map((str) => {
+       return str.split('').reverse().join('')
+   }).join(' ')
+ 
+   - `reverseStringInItsOwnPlace.split(' ')` splits the input string into an array of words. The delimiter here is the space character `' '`. This creates an array like `['hello', 'world']`.
+   - `.map((str) => { return str.split('').reverse().join('') })` iterates through each word in the array. For each word (`str`), it performs the following operations:
+     - `str.split('')` splits the word into an array of characters. For example, `'hello'` becomes `['h', 'e', 'l', 'l', 'o']`.
+     - `.reverse()` reverses the order of the characters. So, `['h', 'e', 'l', 'l', 'o']` becomes `['o', 'l', 'l', 'e', 'h']`.
+     - `.join('')` joins the characters back together into a single string. This effectively reverses the word. So, `['o', 'l', 'l', 'e', 'h']` becomes `'olleh'`.
+   - `.join(' ')` joins the reversed words back together into a single string, separated by spaces. So, `'olleh world'` is formed.
+
+4. **Return Statement:**
+   return newString
+
+   - The function returns the `newString`, which contains the original string with its words reversed.
+
+5. **Function Call and Output:**
+   console.log(stringReverseInItsOwnPlace(reverseStringInItsOwnPlace));
+   - This line calls the `stringReverseInItsOwnPlace` function with the input `reverseStringInItsOwnPlace` (which is `'hello world'`) and logs the result to the console.
+
+6. **Output:**
+   - The output will be `'olleh world'`, where the word `'hello'` is reversed to `'olleh'`, while `'world'` remains unchanged.

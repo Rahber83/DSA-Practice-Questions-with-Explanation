@@ -18,7 +18,6 @@ console.log(reverseString(string));
 
 //Method-2: Using In-Built Function
 let stringInBuilt = "hello world";
-
 const reverseStringInBuilt = (stringInBuilt) => {
     if(stringInBuilt.length === 0 || stringInBuilt.trim() === ''){
         return "String is Empty, Please Provide a String"
@@ -29,3 +28,15 @@ const reverseStringInBuilt = (stringInBuilt) => {
 };
 
 console.log(reverseStringInBuilt(stringInBuilt));
+
+//Method-3: Reverse a String in its own place 
+//Example: 'hello world' --> 'olleh dlrow'
+let reverseStringInItsOwnPlace = 'hello world';
+const stringReverseInItsOwnPlace = (reverseStringInItsOwnPlace) => {
+    let newString = reverseStringInItsOwnPlace.split(' ').map((str) => {
+       return str.split('').reverse().join('')
+    }).join(' ')
+    return newString
+}
+
+console.log(stringReverseInItsOwnPlace(reverseStringInItsOwnPlace));
