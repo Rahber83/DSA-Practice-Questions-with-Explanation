@@ -1,5 +1,4 @@
 # DSA-Practice-Questions-with-Explanation
-In this Repo We solve the DSA problem and also given the explanation of that solution.
 
 # 1. Explanation of the reverseString.js file both Method
 //Method-1: Explanation of Using for loop-->
