@@ -2,7 +2,7 @@
 In this Repo We solve the DSA problem and also given the explanation of that solution.
 
 # 1. Explanation of the reverseString.js file both Method
-<h1>Method-1: Explanation of Using for loop</h1>
+<h3>Method-1: Explanation of Using for loop</h3>
 
 // 1. let string = "hello world"; : This line declares a variable named `string` and assigns it the value "hello world". This is the string that will be reversed.
 
@@ -28,7 +28,7 @@ In this Repo We solve the DSA problem and also given the explanation of that sol
 // 8. console.log(reverseString(string)); : This line calls the `reverseString` function with the `string` variable (which is "hello world") as the argument. The result is then logged to the console.
 
 
-//Method-2: Explanation of Using In-Built Function-->
+<h3>Method-2: Explanation of Using In-Built Function</h3>
 
 // 1. let stringInBuilt = "hello world"; : This line declares a variable named `stringInBuilt` and assigns it the value "hello world". This is the string that will be reversed.
 
