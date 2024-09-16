@@ -32,6 +32,14 @@ The function prints a pyramid with `n` rows, where each row has an increasing nu
    - `console.log();`  
      After printing the spaces and asterisks for a row, this ensures the next iteration starts on a new line.
 
+```
+    *
+   ***
+  *****
+ *******
+*********
+```
+
 ## **Time Complexity:**
 
 The time complexity of this function is **O(n²)**.
@@ -64,6 +72,14 @@ The function constructs a pyramid using spaces and asterisks. The number of spac
 4. **Combining Strings:**
    - `console.log(spaces + stars + spaces);`:  
      This line combines the leading spaces, asterisks, and trailing spaces and prints them on a new line. The same number of spaces on both sides ensures the pyramid is centered.
+
+```
+    *
+   ***
+  *****
+ *******
+*********
+```
 
 ## **Time Complexity:**
 
