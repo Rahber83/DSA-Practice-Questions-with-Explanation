@@ -44,7 +44,7 @@ The function constructs an inverted pyramid using a combination of spaces and as
 
 ## The time complexity of this function is **O(n²)**.
 
->
+> > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
 
 # Explanation of `solutionSecondOfPatternEight` Function
 
