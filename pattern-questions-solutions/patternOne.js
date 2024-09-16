@@ -20,7 +20,7 @@ const solutionFirstOfPatternOne = (n) => {
 
 solutionFirstOfPatternOne(5);
 
-//Solution Secons:-
+//Solution Second:-
 const solutionSecondOfPatternOne = (n) => {
   let row = "*".repeat(n);
   for (let i = 0; i < n; i++) {
