@@ -44,6 +44,8 @@ The function prints a pyramid with `n` rows, where each row has an increasing nu
 
 The time complexity of this function is **O(n²)**.
 
+>
+
 # Explanation of `solutionSecondOfPatternSeven` Function
 
 The `solutionSecondOfPatternSeven` function prints a centered pyramid pattern of asterisks (`*`). The pyramid has `n` rows, and the number of asterisks increases with each row, forming a symmetrical pyramid.

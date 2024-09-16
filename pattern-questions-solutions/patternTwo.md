@@ -16,6 +16,8 @@ The function works as follows:
 
 6 **Function Call:** Calling `solutionFirstOfPatternTwo(5);` will print a right-angled triangle of asterisks with 5 rows.
 
+>
+
 # Explanation of `solutionSecondOfPatternTwo` Function
 
 The `solutionSecondOfPatternTwo` function generates a right-angled triangle pattern of asterisks (`*`). The number of rows in the triangle is determined by the parameter `n`.

@@ -17,3 +17,4 @@ In this Repo We solve the DSA problem and also given the explanation of that sol
 > 7. Explanation of `patternFive.js` is inside the `patternFive.md` .
 > 8. Explanation of `patternSix.js` is inside the `patternSix.md` .
 > 9. Explanation of `patternSeven.js` is inside the `patternSeven.md` .
+> 10. Explanation of `patternEight.js` is inside the `patternEight.md` .
