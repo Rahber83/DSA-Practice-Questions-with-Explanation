@@ -4,7 +4,7 @@ The `solutionFirstOfPatternOne` function prints a grid of asterisks (`*`). It ta
 
 1. **Function Definition:** The function is defined to accept one argument, `n`, which determines the size of the grid.
 
--2.**Outer Loop:** The outer loop `for (let i = 0; i < n; i++)` runs `n` times. Each iteration of this loop represents one row of the grid.
+2. **Outer Loop:** The outer loop `for (let i = 0; i < n; i++)` runs `n` times. Each iteration of this loop represents one row of the grid.
 
 3. **Inner Loop:** Inside the outer loop, there is another loop `for (let j = 0; j < n; j++)` that also runs `n` times. This inner loop is responsible for printing the asterisks for each column in the current row.
 
