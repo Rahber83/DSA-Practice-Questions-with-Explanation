@@ -18,3 +18,7 @@ In this Repo We solve the DSA problem and also given the explanation of that sol
 > 8. Explanation of `patternSix.js` is inside the `patternSix.md` .
 > 9. Explanation of `patternSeven.js` is inside the `patternSeven.md` .
 > 10. Explanation of `patternEight.js` is inside the `patternEight.md` .
+> 11. Explanation of `largestelement.js` is inside the `largestelement.md` .
+> 12. Explanation of `secondLargestElement.js` is inside the `secondLargestElement.md` .
+> 13. Explanation of `maxConsecutiveOnes.js` is inside the `maxConsecutiveOnes.md` .
+> 14. Explanation of `rotateArray.js` is inside the `rotateArray.md` .
