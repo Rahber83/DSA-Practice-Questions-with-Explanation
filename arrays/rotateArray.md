@@ -1,5 +1,7 @@
 # Explanation of the `arrayRotate.js` File
 
+## Problem: `Left Rotate Array by One` –
+
 ### Explanation of Rotating an Array Left by One (Easy Problem) -->
 
 1. **`let arrayRotate = [1, 2, 3, 4, 5];`**
@@ -40,6 +42,8 @@
    - Calls the `rotateArrayLeftByOne` function with the `arrayRotate` array as the argument to perform a single left rotation.
 
 ---
+
+## Problem: `Left Rotate Array by K Places` –
 
 ### Explanation of Rotating an Array Left by K Times `Brute Force Approach` (Medium Problem) -->
 

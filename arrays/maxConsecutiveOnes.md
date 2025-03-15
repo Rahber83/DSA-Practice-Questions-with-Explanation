@@ -1,5 +1,7 @@
 # Explanation of `maximumConsecutiveOnes` Function
 
+## Problem: `Maximum Consecutive Ones` –
+
 ### Explanation using a For loop -->
 
 1. **`let number = [1, 1, 0, 0, 1, 1, 1, 0];`**
