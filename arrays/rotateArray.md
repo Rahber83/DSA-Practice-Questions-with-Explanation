@@ -41,7 +41,7 @@
 
 ---
 
-### Explanation of Rotating an Array Left by K Times (Medium Problem) -->
+### Explanation of Rotating an Array Left by K Times `Brute Force Approach` (Medium Problem) -->
 
 1. **`const rotateArrayLeftByKTimes = (nums, k) => {`**
 
@@ -83,3 +83,55 @@
 
 5. **`rotateArrayLeftByKTimes(arrayRotate, k);`**
    - Calls the `rotateArrayLeftByKTimes` function with the `arrayRotate` array and the value `k` as arguments, initiating the process to rotate the array left by `k` (or possibly `k+1`) times.
+
+---
+
+### Explanation of Rotating an Array Left by K Times `Optimal Approach` (Medium Problem) -->
+
+1. **Helper Function: `reverse`**
+
+   - **Purpose:**  
+     The `reverse` function is used to reverse a portion of an array in-place between the indices `start` and `end`.
+   - **How it Works:**
+     - It uses a `while` loop that runs as long as `start < end`.
+     - Within the loop, it swaps the elements at positions `start` and `end`.
+     - After each swap, it increments `start` and decrements `end` until the entire segment is reversed.
+
+2. **Main Function: `rotateArrayLeftByKTimesOptimal`**
+
+   - **Parameters:**
+     - `nums`: The array to be rotated.
+     - `k`: The number of positions by which the array should be rotated to the left.
+   - **Step-by-Step Process:**
+
+   1. **Calculate Effective Rotations:**
+
+      - `let n = nums.length;` stores the length of the array.
+      - `k = k % n;` ensures that if `k` is greater than the length of the array, only the necessary rotations are performed (i.e., it converts `k` to an effective rotation value).
+
+   2. **Step 1: Reverse the First k Elements**
+
+      - `reverse(nums, 0, k - 1);`
+      - This reverses the subarray from index `0` to `k-1`.
+      - For example, if the array is `[1, 2, 3, 4, 5, 6, 7, 8, 9]` and `k = 3`, the first 3 elements `[1, 2, 3]` become `[3, 2, 1]`.
+
+   3. **Step 2: Reverse the Remaining n - k Elements**
+
+      - `reverse(nums, k, n - 1);`
+      - This reverses the subarray from index `k` to the end of the array.
+      - Continuing the example, reversing the elements from index `3` to `8` changes `[4, 5, 6, 7, 8, 9]` into `[9, 8, 7, 6, 5, 4]`.
+
+   4. **Step 3: Reverse the Entire Array**
+      - `reverse(nums, 0, n - 1);`
+      - Finally, reversing the whole array transforms it into the left-rotated array by `k` positions.
+      - In our example, reversing `[3, 2, 1, 9, 8, 7, 6, 5, 4]` results in `[4, 5, 6, 7, 8, 9, 1, 2, 3]`.
+
+3. **Logging the Result:**
+
+   - `console.log("nums optimal ---> ", nums);` prints the rotated array to the console.
+
+4. **Function Invocation:**
+   - `rotateArrayLeftByKTimesOptimal(arrayRotateoptimal, k);`
+   - This line calls the function with the array (`arrayRotateoptimal`) and the number of rotations (`k`) as arguments.
+
+---
