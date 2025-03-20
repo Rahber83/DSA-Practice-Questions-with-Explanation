@@ -22,3 +22,4 @@ In this Repo We solve the DSA problem and also given the explanation of that sol
 > 12. Explanation of `secondLargestElement.js` is inside the `secondLargestElement.md` .
 > 13. Explanation of `maxConsecutiveOnes.js` is inside the `maxConsecutiveOnes.md` .
 > 14. Explanation of `rotateArray.js` is inside the `rotateArray.md` .
+> 15. Explanation of `removeDuplicate.js` is inside the `removeDuplicate.md` .
